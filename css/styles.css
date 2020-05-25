@@ -8,7 +8,7 @@ body {
 /* Main section */
 
 .welcome {
-    padding: 200px 0 50px;
+    padding: 200px 0 100px;
 }
 
 .title {
@@ -30,13 +30,5 @@ body {
 
 #how-to {
     margin-top: 300px;
-}
-
-.rules {
-    height: 800px;
-}
-
-li {
-    list-style-type: circle;
 }
 

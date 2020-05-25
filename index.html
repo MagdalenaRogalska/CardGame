@@ -25,8 +25,8 @@
 
 <body>
     <section id="main">
-        <div class = "container-fluid welcome">
-            <h1 class="title">Witaj w grze</h1>
+        <div class="container-fluid welcome">
+            <h1 class="title">Welcome to the game</h1>
         </div>
         <div class="main-buttons">
             <button type="button" class="btn btn-light btn-lg">Join</button>
@@ -35,15 +35,121 @@
     </section>
 
     <section id="how-to">
-        <div class="rules">
-            <h2>Rules</h2>
-            <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li>Vivamus dignissim sem non lacus venenatis tristique.</li>
-                <li>Ut pellentesque ligula sit amet risus congue, sit amet facilisis odio tristique.</li>
-                <li>Nulla bibendum quam ac neque ullamcorper, rutrum sagittis diam bibendum.</li>
-                <li>Aenean vel mauris a tortor cursus facilisis.</li>
-            </ul>
+
+        <div class="accordion" id="accordionID">
+
+            <div class="card text-white bg-dark">
+                <div class="card-header" id="headingOne">
+                    <h2>
+                        <button class="btn btn-link btn-block text-left text-warning" type="button"
+                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Rule #1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionID">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin tempor facilisis.
+                        Vivamus id aliquam neque. Integer id quam mattis, fringilla urna non, malesuada velit. Aenean
+                        sodales faucibus lorem, at condimentum ligula sodales eget. Vivamus sem ipsum, hendrerit ac nisl
+                        at, iaculis consectetur magna. Donec vel dapibus ante. Etiam ornare odio at nibh finibus, nec
+                        interdum eros posuere. Nulla rutrum velit sed justo malesuada, non dictum metus sagittis. Sed a
+                        urna ut tortor sollicitudin molestie. In sit amet enim non nunc tempus fermentum.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark">
+                <div class="card-header" id="headingTwo">
+                    <h2>
+                        <button class="btn btn-link btn-block text-left collapsed text-warning" type="button"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Rule #2 - Sed dapibus orci sed massa scelerisque commodo.
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionID">
+                    <div class="card-body">
+                        Ut laoreet placerat urna ac pretium. Suspendisse felis orci, pulvinar quis lacus id, volutpat
+                        fermentum justo. Aliquam imperdiet dui eros, ut fermentum erat sagittis a. Quisque consequat
+                        odio blandit orci faucibus venenatis. Donec et metus molestie, tristique tellus ac, euismod
+                        felis. Nullam nec sapien diam. Nam non diam mauris. Pellentesque non porta neque, vel semper
+                        nisi. Sed malesuada tempus nunc sed blandit. Ut convallis ipsum sagittis, molestie nulla id,
+                        laoreet sapien. Integer imperdiet efficitur est in rhoncus. Cras tincidunt, turpis eget molestie
+                        euismod, magna ante auctor sapien, at vestibulum est risus vel enim. Proin non augue est.
+                        Maecenas dapibus tempus auctor.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark">
+                <div class="card-header" id="headingThree">
+                    <h2>
+                        <button class="btn btn-link btn-block text-left collapsed text-warning" type="button"
+                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Rule #3 - Suspendisse tempor tortor sit amet tellus efficitur, id viverra ipsum
+                            pellentesque.
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionID">
+                    <div class="card-body">
+                        Vivamus in ornare tortor. Curabitur accumsan, tellus sed fermentum dapibus, mi erat pulvinar
+                        libero, vitae semper ipsum dolor ac dui. Proin dapibus, metus quis fermentum congue, leo mauris
+                        maximus diam, eget interdum urna arcu in urna. Nullam et libero id sapien sagittis volutpat. In
+                        hac habitasse platea dictumst. Vestibulum tortor justo, gravida eu felis id, condimentum
+                        ullamcorper ligula. Maecenas laoreet, arcu at sodales laoreet, augue diam consequat purus,
+                        suscipit sagittis nisl neque at urna.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark">
+                <div class="card-header" id="headingFour">
+                    <h2>
+                        <button class="btn btn-link btn-block text-left collapsed text-warning" type="button"
+                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            Rule #4 - Aenean id enim et orci finibus auctor.
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionID">
+                    <div class="card-body">
+                        Cras vitae condimentum odio. Morbi ornare ipsum vitae pellentesque sagittis. Ut pretium vehicula
+                        consectetur. Suspendisse vel neque vel nunc sagittis rutrum. Nam condimentum magna condimentum
+                        mauris bibendum elementum. Nullam quis scelerisque elit. Morbi faucibus justo vitae ligula
+                        luctus dapibus. Vivamus molestie odio vitae velit bibendum scelerisque. Aenean suscipit justo et
+                        rutrum faucibus.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark">
+                <div class="card-header" id="headingFive">
+                    <h2>
+                        <button class="btn btn-link btn-block text-left collapsed text-warning" type="button"
+                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                            aria-controls="collapseFive">
+                            Rule #5 - Curabitur tristique mi vitae augue molestie pretium.
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionID">
+                    <div class="card-body">
+                        Aliquam a finibus ex. Ut mattis id ipsum et blandit. Mauris id pretium dui. Mauris ultrices urna
+                        id consectetur varius. Donec ac mauris sit amet neque auctor accumsan. Pellentesque quis augue
+                        sed nibh pellentesque vehicula. Praesent ornare leo id tellus finibus hendrerit. In suscipit non
+                        ex eu finibus. Sed tempor massa eget lacinia tempor. Donec lectus eros, vulputate eget dapibus
+                        id, lobortis id metus. Aliquam semper placerat arcu nec ultrices. Vivamus eget ipsum ut metus
+                        mattis fermentum id eget ante.
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
