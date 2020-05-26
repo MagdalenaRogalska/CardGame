@@ -29,6 +29,34 @@ body {
 /* How-to section */
 
 #how-to {
-    margin-top: 300px;
+    margin-top: 30%;
 }
 
+.container {
+    text-align: center;
+}
+
+.screen {
+    height: 600px;
+    width: 80%;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    background-image: url("images/table.jpeg");
+}
+
+.table {
+    height: 70%;
+    margin: 0;
+}
+
+.cards {
+    margin: 0;
+    height: 30%;
+}
+
+.card .card-title{
+    padding-top: 40%;
+    margin-bottom: 40%;
+}
